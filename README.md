@@ -1,43 +1,48 @@
 # 🚀 ATS & AI Resume Optimizer Skill
 
-Uma skill universal de prompt (instrução de sistema) projetada para transformar LLMs (Gemini, ChatGPT, Claude) em especialistas de recrutamento. O foco principal é criar do zero, reescrever e otimizar currículos para contornar os filtros de **Applicant Tracking Systems (ATS)** e algoritmos de triagem por Inteligência Artificial.
+A universal prompt skill (system instruction) designed to transform LLMs (Gemini, ChatGPT, Claude) into recruitment specialists. The main focus is creating from scratch, rewriting, and optimizing resumes to bypass **Applicant Tracking Systems (ATS)** filters and AI screening algorithms.
 
-## 🎯 Por que usar esta Skill?
+## 🎯 Why Use This Skill?
 
-Empresas modernas utilizam softwares de triagem que leem currículos em busca de palavras-chave, estruturas lineares e padrões específicos. Um currículo visualmente bonito, mas mal estruturado em texto, é frequentemente descartado antes de chegar a um humano. Esta skill garante que o seu currículo "fale a língua" dos robôs de recrutamento e gera um arquivo pronto para envio.
+Modern companies use screening software that reads resumes looking for keywords, linear structures, and specific patterns. A visually beautiful but poorly structured resume in text is often discarded before reaching a human. This skill ensures your resume "speaks the language" of recruitment robots and generates a ready-to-submit file.
 
-## 🛠️ Como Utilizar
+## 🛠️ How to Use
 
-1. Copie o conteúdo do arquivo [`SKILL.md`](SKILL.md).
-2. Cole na seção de configuração da sua IA preferida:
-   - **Gemini:** Crie uma nova "Habilidade" (funcionalidade que substitui os antigos "Gems").
-   - **ChatGPT:** Cole na seção "Custom Instructions" ou crie um GPT personalizado.
-   - **Claude:** Utilize a funcionalidade de "Projects" para adicionar o prompt de sistema.
-3. Inicie a conversa. Você tem duas opções:
-   - **Opção A (Atualização):** Envie seu currículo atual em anexo (PDF ou texto) e peça para a IA otimizá-lo. A IA sempre perguntará qual é a vaga alvo antes de iniciar.
-   - **Opção B (Criação do Zero):** Apenas diga "Quero criar meu currículo". A skill ativará o **Modo Questionário**, fazendo perguntas pontuais sobre sua carreira para montar o documento.
+1. Copy the content of the [`SKILL.md`](SKILL.md) file.
+2. Paste it into your preferred AI's configuration section:
+   - **Gemini:** Create a new "Skill" (feature replacing the old "Gems").
+   - **ChatGPT:** Paste into the "Custom Instructions" section or create a custom GPT.
+   - **Claude:** Use the "Projects" functionality to add the system prompt.
+3. Start the conversation. You have two options:
+   - **Option A (Update):** Send your current resume as an attachment (PDF or text) and ask the AI to optimize it. The AI will always ask for the target role before starting.
+   - **Option B (Create from Scratch):** Just say "I want to create my resume." The skill will activate **Questionnaire Mode**, asking targeted questions about your career to build the document.
 
-## ✨ Funcionalidades Principais
+## ✨ Key Features
 
-- **Análise de Mercado via LinkedIn:** Se a IA tiver acesso à web, ela busca vagas reais no LinkedIn com o título que você deseja e extrai as palavras-chave mais quentes do mercado no momento.
-- **Integração de Memória:** Puxa o histórico de ferramentas e área de atuação salvos no perfil da IA.
-- **Design ATS Minimalista (Página Única):** Foca em um layout preto e branco, estruturado, sem elementos gráficos, economizando _tokens_ da IA e garantindo que recrutadores humanos e robôs leiam o que importa.
-- **Exportação em `.docx`:** A IA é instruída a gerar um arquivo Word pronto para download, facilitando edições futuras e garantindo a melhor compatibilidade com leitores ATS.
+- **LinkedIn Market Analysis:** If the AI has web access, it searches for real jobs on LinkedIn with the title you want and extracts the hottest keywords from the market right now.
+- **Memory Integration:** Pulls tool history and work area saved in the AI profile.
+- **Minimalist ATS Design (Single Page):** Focuses on a black-and-white, structured layout without graphical elements, saving AI **tokens** and ensuring both human recruiters and bots read what matters.
+- **Export to `.docx`:** The AI is instructed to generate a Word file ready for download, facilitating future edits and ensuring the best compatibility with ATS readers.
 
-## 🗂️ Estrutura do Repositório
+## 🗂️ Repository Structure
 
-- [`SKILL.md`](SKILL.md): O código-fonte do prompt principal (System Prompt) para ser injetado na IA.
-- [`README.md`](README.md): Documentação principal e vitrine do projeto.
-- [`SECURITY.md`](SECURITY.md): Política de segurança, privacidade e mitigação de vulnerabilidades em prompts.
-- [`LICENSE`](LICENSE): Licença Creative Commons (CC BY-NC-SA 4.0).
-- [`docs/BOAS_PRATICAS_ATS.md`](docs/BOAS_PRATICAS_ATS.md): Documentação técnica sobre parsers ATS e as regras aplicadas.
-- [`docs/AVISO_LEGAL_LGPD.md`](docs/AVISO_LEGAL_LGPD.md): Termos de uso, privacidade e proteção de dados sensíveis (LGPD/GDPR).
+- [`SKILL.md`](SKILL.md): The source code of the main prompt (System Prompt) to be injected into the AI.
+- [`README.md`](README.md): Main documentation and project showcase.
+- [`SECURITY.md`](SECURITY.md): Security policy, privacy, and prompt vulnerability mitigation.
+- [`LICENSE`](LICENSE): Creative Commons License (CC BY-NC-SA 4.0).
+- [`docs/BEST_PRACTICES_ATS.md`](docs/BEST_PRACTICES_ATS.md): Technical documentation on ATS parsers and applied rules.
+- [`docs/LEGAL_NOTICE_LGPD.md`](docs/LEGAL_NOTICE_LGPD.md): Terms of use, privacy, and sensitive data protection (LGPD/GDPR).
 
-## 👨‍💻 Autoria e Créditos
+### 🌐 Multilingual Versions
 
-Este projeto foi idealizado, desenvolvido e é mantido por **[Gustavo Barone (@GuBarone)](https://www.linkedin.com/in/gustavo-barone-777s/)**.
-Se essa skill otimizou o seu currículo e te ajudou a conseguir uma entrevista, conecte-se comigo no LinkedIn e compartilhe sua conquista!
+- **Portuguese:** [`README.pt.md`](README.pt.md) | [`SKILL.pt.md`](SKILL.pt.md) | [`SECURITY.pt.md`](SECURITY.pt.md) | [`docs/BOAS_PRATICAS_ATS.md`](docs/BOAS_PRATICAS_ATS.md) | [`docs/AVISO_LEGAL_LGPD.md`](docs/AVISO_LEGAL_LGPD.md)
+- **Spanish:** [`README.es.md`](README.es.md) | [`SKILL.es.md`](SKILL.es.md) | [`SECURITY.es.md`](SECURITY.es.md) | [`docs/BUENAS_PRACTICAS_ATS.md`](docs/BUENAS_PRACTICAS_ATS.md) | [`docs/AVISO_LEGAL_GDPR.md`](docs/AVISO_LEGAL_GDPR.md)
 
-## ⚖️ Licença e Contribuições
+## 👨‍💻 Authorship and Credits
 
-Sinta-se à vontade para abrir _issues_ ou enviar _pull requests_ com sugestões. Este projeto está sob a licença **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)**, protegendo os direitos de uso do autor original e proibindo a monetização ou uso comercial de terceiros.
+This project was conceived, developed, and is maintained by **[PoftPuft](https://github.com/PoftPuft)**.
+If this skill optimized your resume and helped you land an interview, connect with me on GitHub and share your success!
+
+## ⚖️ License and Contributions
+
+Feel free to open _issues_ or submit _pull requests_ with suggestions. This project is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**, protecting the original author's usage rights and prohibiting monetization or commercial use by third parties.

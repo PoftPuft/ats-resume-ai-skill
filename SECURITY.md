@@ -1,33 +1,33 @@
-# 🛡️ Política de Segurança
+# 🛡️ Security Policy
 
-A segurança e a privacidade dos usuários desta Skill são prioridades absolutas. Como este projeto não consiste em um software executável, mas sim em uma engenharia de prompt (System Prompt) para LLMs, o escopo de segurança foca primariamente na proteção de dados pessoais e na mitigação de comportamentos indesejados da Inteligência Artificial.
+The security and privacy of users of this Skill are absolute priorities. Since this project is not executable software but rather a prompt engineering (System Prompt) for LLMs, the security scope focuses primarily on personal data protection and mitigation of unwanted AI behaviors.
 
-## 📌 Escopo de Segurança
+## 📌 Security Scope
 
-Consideramos como incidentes de segurança válidos para reporte neste repositório:
+We consider the following as valid security incidents for reporting in this repository:
 
-- **Vazamento Involuntário de Dados:** O prompt induz ou obriga o usuário a fornecer dados sensíveis (CPF, RG, endereço exato) que não deveriam ser solicitados.
-- **Falhas de Output (Prompt Injection):** O prompt pode ser facilmente subvertido para gerar conteúdos maliciosos, ofensivos ou fora do escopo profissional de recrutamento.
-- **Violações de Privacidade:** O comportamento da IA fere as diretrizes estipuladas no arquivo `AVISO_LEGAL_LGPD.md`.
+- **Unintentional Data Leakage:** The prompt induces or forces the user to provide sensitive data (SSN, ID, exact address) that should not be requested.
+- **Output Failures (Prompt Injection):** The prompt can be easily subverted to generate malicious, offensive, or off-scope content outside professional recruitment.
+- **Privacy Violations:** The AI behavior violates the guidelines stipulated in the `LEGAL_NOTICE_LGPD.md` file.
 
-_Nota: Não nos responsabilizamos pela forma como empresas terceiras (OpenAI, Google, Anthropic) processam ou armazenam os dados inseridos em seus respectivos chats._
+_Note: We are not responsible for how third-party companies (OpenAI, Google, Anthropic) process or store data entered in their respective chats._
 
-## 🚨 Como relatar uma vulnerabilidade ou problema de privacidade
+## 🚨 How to Report a Vulnerability or Privacy Issue
 
-Se você encontrar um problema que se enquadre no escopo acima, **NÃO abra uma Issue pública** imediatamente, pois isso pode expor a falha antes que possamos mitigá-la na instrução principal.
+If you find an issue that falls within the scope above, **DO NOT open a public Issue** immediately, as this may expose the flaw before we can mitigate it in the main instruction.
 
-1. Envie um e-mail diretamente para o mantenedor do projeto ou utilize as mensagens diretas via [LinkedIn](URL_DO_SEU_LINKEDIN).
-2. Inclua no relato:
-   - Qual LLM você estava utilizando (Gemini, ChatGPT, Claude, etc.).
-   - O comportamento exato que a IA apresentou.
-   - O trecho do prompt que você acredita estar causando a falha (se souber).
-3. Tentaremos responder e aplicar as correções no arquivo `SKILL.md` o mais rápido possível, geralmente dentro de 48 horas.
+1. Send an email directly to the project maintainer or use direct messages via [GitHub](https://github.com/PoftPuft).
+2. Include in the report:
+   - Which LLM you were using (Gemini, ChatGPT, Claude, etc.).
+   - The exact behavior the AI exhibited.
+   - The prompt snippet you believe is causing the failure (if known).
+3. We will attempt to respond and apply corrections to the `SKILL.md` file as quickly as possible, usually within 48 hours.
 
-## ✅ Versões Suportadas
+## ✅ Supported Versions
 
-Apenas a versão mais recente presente na branch `main` do arquivo `SKILL.md` recebe suporte e atualizações de segurança.
+Only the latest version present in the `main` branch of the `SKILL.md` file receives support and security updates.
 
 ---
 
-_Política de segurança integrante da skill **ats-resume-optimizer**._
-_Desenvolvida originalmente por [Gustavo Barone (@GuBarone)](https://www.linkedin.com/in/gustavo-barone-777s/) sob licença CC BY-NC-SA 4.0._
+_Policy integrated into the **ats-resume-optimizer** skill._
+_Originally developed by [PoftPuft](https://github.com/PoftPuft) under CC BY-NC-SA 4.0 license._
